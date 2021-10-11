@@ -2,7 +2,7 @@
 using namespace std;
 
 void merge(int arr[],int l,int mid,int r){
-   int n1=mid-l;
+   int n1=mid-l+1; //You have to consider size here not the index.
    int n2=r-mid;
 
    int a[n1];
