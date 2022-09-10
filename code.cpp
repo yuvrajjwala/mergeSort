@@ -56,7 +56,7 @@ void display(int arr[],int size){
 }
 
 int main(){
-   int arr[]={2,6,8,7,6,3,99,9,863,8,5,4,55,78,85};
+   int arr[]={2,6,8,7,6,3,99,9,863,8,5,4,55,78,85,89,100};
    int size=sizeof(arr)/sizeof(arr[0]);
    mergeSort(arr,0,size-1);
    display(arr,size);
